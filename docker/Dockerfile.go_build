@@ -42,3 +42,4 @@ WORKDIR /data
 RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
+CMD ["server", "-s3"]
